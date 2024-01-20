@@ -18,7 +18,7 @@ variable "db_password" {
 variable "vpc_soat" {
   description = "VPC ID"
   type        = string
-  default = "vpc-02704242632eb2597"
+  default     = "vpc-02704242632eb2597"
 }
 
 variable "subnet_a_id" {
