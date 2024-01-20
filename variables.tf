@@ -7,7 +7,6 @@ variable "db_username" {
   description = "Database username"
   type        = string
   sensitive   = true
-  default     = "db_username"
 }
 
 variable "db_password" {
@@ -19,6 +18,7 @@ variable "db_password" {
 variable "vpc_soat" {
   description = "VPC ID"
   type        = string
+  default = "vpc-02704242632eb2597"
 }
 
 variable "subnet_a_id" {
